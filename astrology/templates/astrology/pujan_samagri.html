@@ -1,0 +1,87 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+	  
+  	<title>Contact Form 10</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href=" {% static 'css/style.css' %} ">
+	<link rel="stylesheet" href=" {% static 'assets/css/fontawesome.css' %} ">
+    <link rel="stylesheet" href=" {% static 'assets/css/templatemo-edu-meeting.css' %} ">
+    <link rel="stylesheet" href=" {% static 'assets/css/owl.css' %} ">
+    <link rel="stylesheet" href=" {% static 'assets/css/lightbox.css' %} ">
+
+	</head>
+	<body style="background-image: url( {% static 'assets/images/bg1.jpg' %} );">
+
+	<section class="ftco-section img bg-hero" >
+		<header class="header-area header-sticky">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<nav class="main-nav">
+							<!-- ***** Logo Start ***** -->
+							<a href=" {% url 'index' %} " class="logo">
+								Astrology 
+							</a>
+							<!-- ***** Logo End ***** -->
+							<!-- ***** Menu Start ***** -->
+							<ul class="nav">
+								<li class="scroll-to-section"><a href=" {% url 'index' %} " >Home</a></li>
+								<li><a href=" {% url 'meetings' %} ">Festivals</a></li>
+								
+								<li class="has-sub">
+									<a href=" # ">Pages</a>
+									<ul class="sub-menu">
+										<li><a href=" {% url 'meetings' %} ">Upcoming Festivals</a></li>
+										<li><a href=" {% url 'meeting_details' %} ">Festivals Details</a></li>
+									</ul>
+								</li>
+								<li class="scroll-to-section"><a href=" {% url 'pujan_samagri'  %} "class="active">Pujan Samagri</a></li> 
+								<li class="scroll-to-section"><a href=" {% url 'contact' %} " >Contact Us</a></li> 
+							</ul>        
+							<a class='menu-trigger'>
+								<span>Menu</span>
+							</a>
+							<!-- ***** Menu End ***** -->
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- ***** Header Area End ***** -->
+
+            <div class="container">
+                <form action="">
+                    <input type="text"><br>
+                    <br><br><br><br>
+                    <input type="text"><br>
+                    <br><br><br><br>
+                    <input type="text"><br>
+                    <br><br><br><br>
+                    <input type="text"><br>
+                    <br><br><br><br>
+                    <input type="text"><br>
+                    <br><br><br><br>
+                </form>
+            </div>
+
+
+
+        
+	<script src=" {% static 'js/jquery.min.js' %} "></script>
+    <script src=" {% static 'js/popper.js' %} "></script>
+    <script src=" {% static 'js/bootstrap.min.js' %} "></script>
+    <script src=" {% static 'js/jquery.validate.min.js' %} "></script>
+    <script src=" {% static 'js/main.js' %} "></script>
+  
+      </body>
+  </html>
+  
+  
